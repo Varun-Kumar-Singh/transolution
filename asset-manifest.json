@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/transolution.git/static/css/main.600bddc9.css",
+    "main.js": "/transolution.git/static/js/main.c85f518d.js",
+    "static/js/787.ffcd8c14.chunk.js": "/transolution.git/static/js/787.ffcd8c14.chunk.js",
+    "static/media/TPL.png": "/transolution.git/static/media/TPL.07f795e581e7cb83dfc6.png",
+    "static/media/logo.png": "/transolution.git/static/media/logo.b50658e7a478150c8c2b.png",
+    "static/media/FTL.png": "/transolution.git/static/media/FTL.3f45e921d7c1d74cd422.png",
+    "index.html": "/transolution.git/index.html",
+    "main.600bddc9.css.map": "/transolution.git/static/css/main.600bddc9.css.map",
+    "main.c85f518d.js.map": "/transolution.git/static/js/main.c85f518d.js.map",
+    "787.ffcd8c14.chunk.js.map": "/transolution.git/static/js/787.ffcd8c14.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.600bddc9.css",
+    "static/js/main.c85f518d.js"
+  ]
+}
