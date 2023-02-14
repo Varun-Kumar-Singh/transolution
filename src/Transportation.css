@@ -1,0 +1,114 @@
+.transportation{
+    /* display: flex; */
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1500px;
+}
+
+.trans_image{
+    height: 200px;
+    width: 100%;
+    z-index: -1;
+    /* margin-bottom: -150px; */
+    mask-image: linear-gradient(to bottom,rgba(0,0,0,1),rgba(0,0,0,0));
+}
+
+.trans_block{ 
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    z-index: 1;
+    justify-content: stretch;
+    margin: auto;
+    padding: 70px;
+    width: 50%;
+    border-radius: 30px;
+
+}
+
+.services_link{
+    text-decoration: none;
+}
+
+.service_nameHigh{
+    border-bottom: 1px solid black;
+    z-index: 3;
+    background-color: rgb(234, 237, 237);
+    border-radius: 5px;
+}
+
+.service_name{
+    padding: 10px;
+    /* text-decoration: none; */
+    /* text-decoration-line: none; */
+    color: black;
+
+}
+.service_name:hover{
+    border-bottom: 1px solid black;
+}
+
+.trans_rowServices{
+    text-decoration: none;
+    /* flex: 0.6; */
+}
+
+.service_heading{
+    padding: 5px;
+    margin: 1px;
+}
+
+/* ------------------------------------------------------------------------------------------------------------ */
+
+.trans_rowForm{
+    display: flex;
+    flex-direction: column;
+    padding: 4%;
+}
+
+.trans_rowFormPersonalInfo{
+    display: flex;
+    padding: 15px;
+    
+}
+
+.trans_rowFormSource{
+    display: flex;
+    padding: 15px;
+}
+
+.trans_rowFormDestination{
+    display: flex;
+    padding: 15px;
+    
+}
+
+.trans_rowFormAddInfo{
+    display: flex;
+    padding: 15px;
+}
+
+/* ------------------------------------------------------------------------------------------------------------------------------- */
+
+.trans_rowForm > form > h5{
+    margin-bottom: 5px;
+}
+
+.trans_rowForm > form > input {
+    height: 30px;
+    margin-bottom: 10px;
+    background-color: white;
+    width: 98%;
+}
+
+.trans_rowForm > form > button{
+    background: #f0c14b;
+    border: 1px solid;
+    border-radius: 2px;
+    width: 100%;
+    height: 30px;
+    margin-top: 10px;
+    border-color: #a88734 #9c7e31 #846a29;
+    color: #111;
+}
